@@ -67,3 +67,6 @@
 .cv-end a{font-size:14px;font-weight:700;color:var(--blue);text-decoration:none}
 @media(max-width:650px){.cv-toolbar-inner{min-height:70px}.cv-toolbar .button{padding:9px 12px;font-size:12px}.cv-toolbar-actions{gap:10px}.cv-back{font-size:12px}.cv-contact{flex-direction:column;gap:6px}.cv-skill{grid-template-columns:1fr;gap:2px}.cv-job-heading{flex-direction:column;gap:3px}.cv-job time{white-space:normal}.cv-paper{padding:25px}.cv-document{padding-block:20px 50px}}
 @media print{.cv-page{background:#fff}.cv-toolbar,.cv-end{display:none}.cv-document{max-width:none;padding:0}.cv-paper{border:0;box-shadow:none;padding:0}.cv-job{break-inside:avoid}.cv-section{break-inside:auto}}
+
+.footer-aside{text-align:right;max-width:560px;line-height:1.55}
+@media(max-width:650px){.footer-aside{text-align:left}}
